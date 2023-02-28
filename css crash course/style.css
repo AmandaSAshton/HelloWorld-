@@ -1,0 +1,25 @@
+div {
+    width: 100%;
+    max-width: 200px;
+    height: 100vw;
+    border: 1px solid #f4a460;
+    border-width: 1px ;
+    font-size: 12px;
+    font-weight: 600px;
+    font-family: 'Times New Roman', Times, serif
+}
+p.red { 
+    color: blueviolet !important; }
+p.blue {
+    color: aquamarine;
+}
+p.yellow { 
+    color: #f4a460;
+}
+#title {
+    color: black;
+}
+section {
+    height: 80vh;
+    border: 1px solid green;
+}
