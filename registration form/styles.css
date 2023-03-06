@@ -1,0 +1,73 @@
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #1b1b32;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+}
+label{
+    display: block;
+    margin: 0.5rem 0;
+}
+h1, p {
+    text-align: center;
+    margin: 1em auto;
+}
+form {
+    max-width: 500px;
+    min-width: 300px;
+    width: 60vw;
+    margin: 0 auto;
+    padding: 2em;
+}
+fieldset{
+    border: none; /* remove the border */
+    padding: 2rem 0; /* add padding to top and bottom only */
+    border-bottom: 3px solid #3b3b4f;
+}
+fieldset:last-of-type {
+    border-bottom: none;
+}
+input, textarea, select {
+    display: block; /* display each element as a block */
+    width: 100%; /* make each element take up the full width of its parent */
+    margin: 10px 0 0 0; /* add margin to the top only */
+    padding: 0; /* reset the padding */
+    min-height: 2em;
+  }
+.inline{
+    width: unset;
+    margin: 0.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0.5em;
+    vertical-align: middle;
+}
+input,textarea {
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 300px;
+}
+input[type="file"] {
+    padding: 1px 2px;
+  }
+a{
+    color: #dfdfe2;
+}
